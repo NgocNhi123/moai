@@ -1,0 +1,56 @@
+.stories {
+	display: flex;
+	width: 100%;
+}
+
+.container {
+	background-color: white;
+	padding: 10px 8px;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.container:hover,
+.container:active {
+	user-select: none;
+}
+
+.scroll {
+	height: inherit;
+	overflow: auto;
+}
+
+.footer {
+	border-top: dashed 1px var(--gray-1);
+	padding-bottom: 6px;
+	padding-top: 8px;
+}
+
+.badge > span {
+	border-radius: 50%;
+	padding: 10px 0;
+	margin-left: auto;
+	width: 19px;
+	height: 20px;
+	font-size: 10px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.lozenge > span {
+	width: 38px;
+	height: 24px;
+	border-radius: var(--radius-2);
+	font-size: 10px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+}
+
+.userArea,
+.footerNote {
+	border-top: dashed 1px var(--gray-1);
+}
